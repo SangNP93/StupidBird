@@ -8,7 +8,6 @@
 
 import UIKit
 import SpriteKit
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Initialize the Chartboost library
+        Chartboost.start(withAppId: chartboostID, appSignature: chartboostSignature, delegate: nil)
+        
+        // It is a good rUle to not show advertisement the first time the player play the game.
+        Chartboost.setShouldRequestInterstitialsInFirstSession(false)
+        
+        //It is true by default. I put this here just to remember that you can use manual cache
+        Chartboost.setAutoCacheAds(true)
         return true
     }
 

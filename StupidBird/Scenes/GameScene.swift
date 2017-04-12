@@ -7,8 +7,9 @@
 //
 
 import SpriteKit
+import GoogleMobileAds
 
-class GameScene: SKScene, SKPhysicsContactDelegate {
+class GameScene: SKScene, SKPhysicsContactDelegate, GADInterstitialDelegate {
     
     // MARK: - Private enum
     private enum State {
@@ -168,6 +169,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         self.physicsWorld.gravity = CGVector.zero
         self.physicsWorld.speed = 0.0
+        Chartboost.showInterstitial(CBLocationDefault)
     }
     
     func gameOver() {
@@ -184,6 +186,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             [weak self] in
             self?.loadScene()
         })
+        Chartboost.showInterstitial(CBLocationDefault)
     }
     
     func resume() {
