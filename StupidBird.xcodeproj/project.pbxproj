@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB25ADC91E9E909C00BDFA3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB25ADC81E9E909C00BDFA3A /* UIKit.framework */; };
+		EB25ADCB1E9E90AD00BDFA3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB25ADCA1E9E90AD00BDFA3A /* CoreGraphics.framework */; };
+		EB25ADCD1E9E90C500BDFA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB25ADCC1E9E90C500BDFA3A /* Foundation.framework */; };
 		EB4437DE1E97D19B00E4E4A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4437DD1E97D19B00E4E4A9 /* AppDelegate.swift */; };
 		EB4437E01E97D19B00E4E4A9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4437DF1E97D19B00E4E4A9 /* GameViewController.swift */; };
 		EB4437E31E97D19B00E4E4A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4437E11E97D19B00E4E4A9 /* Main.storyboard */; };
@@ -52,6 +55,7 @@
 		EBDE41EB1E97EADA00DC201D /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE41EA1E97EADA00DC201D /* Tutorial.swift */; };
 		EBDE41ED1E97EDB100DC201D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE41EC1E97EDB100DC201D /* Colors.swift */; };
 		EBDE41EF1E97F08300DC201D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDE41EE1E97F08300DC201D /* Assets.xcassets */; };
+		F91FF11EF58565650FD41ABB /* libPods-StupidBird.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 744DCFBCAD333C5EE084E809 /* libPods-StupidBird.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		744DCFBCAD333C5EE084E809 /* libPods-StupidBird.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StupidBird.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8393D8AC298262648182856E /* Pods-StupidBird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StupidBird.release.xcconfig"; path = "Pods/Target Support Files/Pods-StupidBird/Pods-StupidBird.release.xcconfig"; sourceTree = "<group>"; };
+		EB25ADC81E9E909C00BDFA3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB25ADCA1E9E90AD00BDFA3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB25ADCC1E9E90C500BDFA3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB25ADCF1E9E981100BDFA3A /* Stupid-Bird-Birding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stupid-Bird-Birding-Header.h"; sourceTree = "<group>"; };
 		EB4437DA1E97D19B00E4E4A9 /* StupidBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4437DD1E97D19B00E4E4A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		EB4437DF1E97D19B00E4E4A9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../GameViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +133,7 @@
 		EBDE41EA1E97EADA00DC201D /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		EBDE41EC1E97EDB100DC201D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		EBDE41EE1E97F08300DC201D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2780A3919336E3317B474F4 /* Pods-StupidBird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StupidBird.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StupidBird/Pods-StupidBird.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +141,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB25ADCD1E9E90C500BDFA3A /* Foundation.framework in Frameworks */,
+				EB25ADCB1E9E90AD00BDFA3A /* CoreGraphics.framework in Frameworks */,
+				EB25ADC91E9E909C00BDFA3A /* UIKit.framework in Frameworks */,
+				F91FF11EF58565650FD41ABB /* libPods-StupidBird.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +165,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A375687273B966D6F5E85F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB25ADCC1E9E90C500BDFA3A /* Foundation.framework */,
+				EB25ADCA1E9E90AD00BDFA3A /* CoreGraphics.framework */,
+				EB25ADC81E9E909C00BDFA3A /* UIKit.framework */,
+				744DCFBCAD333C5EE084E809 /* libPods-StupidBird.a */,
+				EB25ADCF1E9E981100BDFA3A /* Stupid-Bird-Birding-Header.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB5BB23D61ED44E736D0B3A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2780A3919336E3317B474F4 /* Pods-StupidBird.debug.xcconfig */,
+				8393D8AC298262648182856E /* Pods-StupidBird.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB4437D11E97D19B00E4E4A9 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +193,8 @@
 				EB4437F11E97D19C00E4E4A9 /* StupidBirdTests */,
 				EB4437FC1E97D19C00E4E4A9 /* StupidBirdUITests */,
 				EB4437DB1E97D19B00E4E4A9 /* Products */,
+				CB5BB23D61ED44E736D0B3A2 /* Pods */,
+				A375687273B966D6F5E85F13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -350,9 +388,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB4438021E97D19C00E4E4A9 /* Build configuration list for PBXNativeTarget "StupidBird" */;
 			buildPhases = (
+				9EED1C305768197B2CBADEF7 /* [CP] Check Pods Manifest.lock */,
 				EB4437D61E97D19B00E4E4A9 /* Sources */,
 				EB4437D71E97D19B00E4E4A9 /* Frameworks */,
 				EB4437D81E97D19B00E4E4A9 /* Resources */,
+				2503F7BE41A9BFD86F303D23 /* [CP] Embed Pods Frameworks */,
+				9D329BA977370FD4CEA58192 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -480,6 +521,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2503F7BE41A9BFD86F303D23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StupidBird/Pods-StupidBird-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D329BA977370FD4CEA58192 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StupidBird/Pods-StupidBird-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EED1C305768197B2CBADEF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB4437D61E97D19B00E4E4A9 /* Sources */ = {
@@ -666,24 +755,28 @@
 		};
 		EB4438031E97D19C00E4E4A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2780A3919336E3317B474F4 /* Pods-StupidBird.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StupidBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.StupidBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stupid-Bird-Birding-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		EB4438041E97D19C00E4E4A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8393D8AC298262648182856E /* Pods-StupidBird.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StupidBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.StupidBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stupid-Bird-Birding-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

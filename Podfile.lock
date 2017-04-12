@@ -1,0 +1,15 @@
+PODS:
+  - ChartboostSDK (6.6.2)
+  - Google-Mobile-Ads-SDK (7.19.0)
+
+DEPENDENCIES:
+  - ChartboostSDK (~> 6.6)
+  - Google-Mobile-Ads-SDK (~> 7.19)
+
+SPEC CHECKSUMS:
+  ChartboostSDK: 9248a129d363432b43eee0a18454dcf6f46f8d9d
+  Google-Mobile-Ads-SDK: d1bcdbd8347a105a687345b8511701172a5074e9
+
+PODFILE CHECKSUM: 2d76c91d9cea1e5e53886c45b100f37208edd223
+
+COCOAPODS: 1.2.0
